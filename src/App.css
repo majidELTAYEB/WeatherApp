@@ -1,0 +1,200 @@
+
+body{
+ background-color: black;
+  
+}
+
+.MainIMg{
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;
+}
+.containmain{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  /* background: linear-gradient(rgb(87, 171, 255), rgb(22, 88, 129), rgb(7, 28, 49)); */
+  padding-bottom: 50px;
+  height: 100vh;
+}
+
+.containname{
+  margin: 0;
+}
+
+
+.cityName{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 80px;
+  font-weight:900;
+  margin: 0;
+}
+
+.temp{
+
+ margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 60px;
+  font-weight:900;
+  top: 60px;
+}
+
+
+.details{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight:lighter;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.date{
+  font-family: 'Varela Round', sans-serif;
+  color: rgb(161, 152, 152);
+  font-size: 15px;
+  font-weight:lighter;
+  margin: 0;
+}
+
+hr{
+  width: 500px;
+  border: none;
+  height: 1px;
+  background-color: rgb(151, 148, 148); 
+}
+
+.prevtemp{
+  display: flex;
+}
+
+.prevtemp div p{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight:lighter;
+  margin-inline: 10px;
+}
+
+.containtemp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i{
+  color: white;
+  font-size: 20px;
+}
+
+.windcontain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.windcontain div p{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight:lighter;
+}
+
+.humiditycontain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.humiditycontain div p{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight:lighter;
+}
+
+.more{
+  margin-top: 20px;
+  display: flex;
+  
+}
+
+.more div {
+  margin-inline: 10px;
+}
+
+.contprevision{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  border-bottom: 1px solid rgb(68, 68, 68);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.allprevision{
+  padding-top: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight:lighter;
+}
+
+.ContaintSearch{
+  background: linear-gradient(rgb(87, 171, 255), rgb(22, 88, 129), rgb(7, 28, 49));
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  height: 100%;
+  outline: none;
+  padding-left: 10px;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+
+.containerss{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.containerss div {
+  height: 30px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.containerss div i {
+  top: 50px
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
